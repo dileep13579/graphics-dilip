@@ -1,0 +1,51 @@
+body{
+    scroll-behavior: smooth;
+}
+.bg-teal{
+background: linear-gradient(45deg,#020505,#2E4E4E);
+}
+.text-teal{
+    color: #2D4C4C;
+}
+.btn-teal{
+    background: linear-gradient(45deg,#020505,#2E4E4E);
+    border: 2px solid white;
+}
+.navbar-nav li a{
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 20px;
+}
+.dg-circle{
+    margin-top: -70px;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 5px black;
+    border: 4px solid white;
+}
+.simple-card{
+    box-shadow: 0px 0px 10px  #2E4E4E;
+    transition: all 0.5s;
+}
+.simple-card:hover{
+    transform: perspective(400px) rotateY(10deg);
+}
+.lapp{
+    background: url(img/lap.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+@media (max-width:575px){
+    .heading{
+        font-size: 21px;
+    }
+    .dg-graphics{
+        margin-bottom: 55px;
+    }
+    .servicestext{
+        font-size: 23px;
+    }
+    .border .borderwidth{
+        width: 50px;
+    }
+    .dpmodal{
+        font-size:23px;
+    }
+}
